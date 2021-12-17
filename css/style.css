@@ -445,32 +445,18 @@ main .content-center .presale {
   left: 28%;
 }
 /* Timer */
-.content-center .timer {
+
+/* Coin */
+.content-center .coin{
   position: absolute;
-  top: 370%;
-  left: 30%;
-  z-index: 1000;
-  color: var(--nav-color);
+  top:415%;
+  left: 45%;
+  Z-index:1100;
 }
-li {
-  display: inline-block;
-  margin-right: 2em;
-  width: 6em;
-  background-image: url("/assets/Recurso25.png");
-}
+.content-center .coin img{
+  max-width: 200px;
+  height: 226px;
 
-.numbers {
-  display: block;
-  font-size: 60px;
-  line-height: 1.5;
-  margin: 0 auto;
 }
-
-.name {
-  font-size: 20px;
-  line-height: 1.5;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  top: -25px;
+.content-center .coin img:hover {
 }
