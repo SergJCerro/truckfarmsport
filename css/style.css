@@ -1,0 +1,255 @@
+:root {
+  --main-color: #bcecff;
+  --nav-color: #fff;
+}
+
+html {
+  background-color: var(--main-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+a.expand {
+  position: relative;
+  color: var(--nav-color);
+  text-decoration: none;
+  padding: 0 3px 6px 3px;
+}
+a.expand:hover {
+  color: var(--nav-color);
+}
+a.expand::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, red, red, red, orange);
+  background-size: 200% 3px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  transition: background-position 0.3s;
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+a.expand:hover::before {
+  transform: scaleX(1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.2rem;
+}
+.hamburger {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 3rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--nav-color);
+}
+
+.nav-logo img {
+  max-width: 125px;
+  width: 100%;
+  height: 100%;
+}
+.socialmedia a .image {
+  max-width: 30px;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+.socialmedia{
+  margin-right: 20px;
+}
+/* @media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: var(--nav-background-color);
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+} */
+/* HeaderBackground */
+.know_SC {
+  background-image: url(../assets/Recurso8_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  opacity: 0;
+  animation: ContentFadeIn 0.8s 0.8s forwards ease-in;
+}
+
+@media only screen and (max-width: 360px) {
+  .know_Td {
+    width: 120%;
+    height: 80%;
+  }
+  .know_Td .three {
+    top: 30%;
+    left: 30%;
+    display: none;
+  }
+  .know_Td .three img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+@keyframes ContentFadeIn {
+  0% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes ImageFadeIn {
+  0% {
+    transform: translate(-0.5rem, -0.5rem) scale(1.05);
+    opacity: 0;
+    filter: blur(2px);
+  }
+  50% {
+    opacity: 1;
+    filter: blur(2px);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+/* Content Information */
+.know_SC .content_info {
+  padding-left: 3.2%;
+  /* margin-top: 70px; */
+}
+.jugar {
+  font-size: 2.5em;
+  background: linear-gradient(to right,#f81726,#42378f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  padding: 25px;
+  letter-spacing: 5px;
+}
+.email {
+  font-size: 0.9em;
+  color: var(--nav-color) !important;
+  padding: 25px;
+}
+
+.info{
+  color: var(--nav-color);
+  padding: 25px;
+  max-width: 500px;
+  font-size: 1.6em;
+}
+.button-container {
+  position: absolute;
+  top: 72%;
+  left: 20%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.btn {
+  border-radius: 30px;
+  display: block;
+  height: 50px;
+  width: 186px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+.btn:after {
+
+  position: absolute;
+  content: '';
+  display: inline-block;
+  background: #3bade3;
+  background: linear-gradient( #e94d82, #84167c);
+  height: 50px;
+  width: 372px;
+  z-index: -1;
+  -webkit-transform: translateX(-280px);
+          transform: translateX(-280px);
+  -webkit-transition: -webkit-transform 400ms ease-in;
+  transition: -webkit-transform 400ms ease-in;
+  transition: transform 400ms ease-in;
+  transition: transform 400ms ease-in, -webkit-transform 400ms ease-in;
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+}
+
+.btn span {
+  position: relative;
+  top: 16px;
+}
+.know_SC #truck_top{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+.know_SC #truck_top img{
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+}
+.know_SC .content-right{
+  position: absolute;
+  top: -160%;
+  left: 85%;
+}
+.know_SC .content-right svg{
+  max-width: 600px;
+}
+/* Main */
+
