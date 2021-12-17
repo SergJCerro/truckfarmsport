@@ -291,7 +291,7 @@ main .cloudz .vier {
 
 main .content-center .road img {
   position: absolute;
-  width: 1355px;
+  width: 1359px;
   height: 1100px;
   top: 160%;
   left: -1%;
@@ -360,3 +360,60 @@ main .content-center .road .number_info .seis img {
   max-width: 300px;
   height: 116px;
 }
+main .content-center .road .number_info .cinco {
+  position: absolute;
+  top: 175%;
+  left:18%;
+}
+main .content-center .road .number_info .cinco img {
+  max-width: 300px;
+  height: 116px;
+}
+main .content-center .road .number_info .cuatro {
+  position: absolute;
+  top: 210%;
+  left:68%;
+}
+main .content-center .road .number_info .cuatro img {
+  max-width: 300px;
+  height: 116px;
+}
+main .content-center .road .number_info .tres {
+  position: absolute;
+  top: 220%;
+  left:10%;
+}
+main .content-center .road .number_info .tres img {
+  max-width: 300px;
+  height: 130px;
+}
+main .content-center .road .number_info .dos {
+  position: absolute;
+  top: 265%;
+  left:545;
+}
+main .content-center .road .number_info .dos img {
+  max-width: 400px;
+  height: 140px;
+}
+main .content-center .road .number_info .uno {
+  position: absolute;
+  top: 285%;
+  left:20%;
+}
+main .content-center .road .number_info .uno img {
+  max-width: 320px;
+  height: 120px;
+}
+/* PreSale */
+main .content-center .presale{
+  position: absolute;
+  background-image: url(/assets/Recurso24.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  top: 335.9%;
+}
+
+
