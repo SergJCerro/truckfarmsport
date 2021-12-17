@@ -300,7 +300,7 @@ main .content-center .road img {
 main .content-center .road .number_sign .six {
   position: absolute;
   top: 165%;
-  left:71%;
+  left: 71%;
 }
 main .content-center .road .number_sign .six img {
   max-width: 90px;
@@ -309,15 +309,16 @@ main .content-center .road .number_sign .six img {
 main .content-center .road .number_sign .five {
   position: absolute;
   top: 188%;
-  left:44%;
+  left: 44%;
 }
 main .content-center .road .number_sign .five img {
   max-width: 100px;
   height: 160px;
-}main .content-center .road .number_sign .four {
+}
+main .content-center .road .number_sign .four {
   position: absolute;
   top: 205%;
-  left:58%;
+  left: 58%;
 }
 main .content-center .road .number_sign .four img {
   max-width: 100px;
@@ -326,7 +327,7 @@ main .content-center .road .number_sign .four img {
 main .content-center .road .number_sign .three {
   position: absolute;
   top: 208%;
-  left:35%;
+  left: 35%;
 }
 main .content-center .road .number_sign .three img {
   max-width: 120px;
@@ -335,7 +336,7 @@ main .content-center .road .number_sign .three img {
 main .content-center .road .number_sign .two {
   position: absolute;
   top: 245%;
-  left:80%;
+  left: 80%;
 }
 main .content-center .road .number_sign .two img {
   max-width: 160px;
@@ -344,7 +345,7 @@ main .content-center .road .number_sign .two img {
 main .content-center .road .number_sign .one {
   position: absolute;
   top: 250%;
-  left:8.5%;
+  left: 8.5%;
 }
 main .content-center .road .number_sign .one img {
   max-width: 200px;
@@ -354,7 +355,7 @@ main .content-center .road .number_sign .one img {
 main .content-center .road .number_info .seis {
   position: absolute;
   top: 150%;
-  left:48%;
+  left: 48%;
 }
 main .content-center .road .number_info .seis img {
   max-width: 300px;
@@ -363,7 +364,7 @@ main .content-center .road .number_info .seis img {
 main .content-center .road .number_info .cinco {
   position: absolute;
   top: 175%;
-  left:18%;
+  left: 18%;
 }
 main .content-center .road .number_info .cinco img {
   max-width: 300px;
@@ -372,7 +373,7 @@ main .content-center .road .number_info .cinco img {
 main .content-center .road .number_info .cuatro {
   position: absolute;
   top: 210%;
-  left:68%;
+  left: 68%;
 }
 main .content-center .road .number_info .cuatro img {
   max-width: 300px;
@@ -381,7 +382,7 @@ main .content-center .road .number_info .cuatro img {
 main .content-center .road .number_info .tres {
   position: absolute;
   top: 220%;
-  left:10%;
+  left: 10%;
 }
 main .content-center .road .number_info .tres img {
   max-width: 300px;
@@ -390,7 +391,7 @@ main .content-center .road .number_info .tres img {
 main .content-center .road .number_info .dos {
   position: absolute;
   top: 265%;
-  left:545;
+  left: 545;
 }
 main .content-center .road .number_info .dos img {
   max-width: 400px;
@@ -399,21 +400,77 @@ main .content-center .road .number_info .dos img {
 main .content-center .road .number_info .uno {
   position: absolute;
   top: 285%;
-  left:20%;
+  left: 20%;
 }
 main .content-center .road .number_info .uno img {
   max-width: 320px;
   height: 120px;
 }
-/* PreSale */
-main .content-center .presale{
+/* Silver Background */
+main .content-center .many .sil {
   position: absolute;
-  background-image: url(/assets/Recurso24.png);
+  background-image: url(/assets/Recurso27_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 180vh;
+  top: 335.9%;
+  z-index: -2;
+}
+/* PreSale */
+main .content-center .presale {
+  position: absolute !important;
+  background-image: url(/assets/Recurso24_!.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 120vh;
   top: 335.9%;
+  z-index: 999;
+}
+.presale .p {
+  color: var(--nav-color);
+  padding: 10px;
+}
+.presale h2 {
+  position: absolute;
+  top: -1%;
+  left: 25%;
+}
+.presale .j {
+  position: absolute;
+  color: var(--nav-color);
+  padding: 10px;
+  top: 20%;
+  left: 28%;
+}
+/* Timer */
+.content-center .timer {
+  position: absolute;
+  top: 370%;
+  left: 30%;
+  z-index: 1000;
+  color: var(--nav-color);
+}
+li {
+  display: inline-block;
+  margin-right: 2em;
+  width: 6em;
+  background-image: url("/assets/Recurso25.png");
 }
 
+.numbers {
+  display: block;
+  font-size: 60px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
 
+.name {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
