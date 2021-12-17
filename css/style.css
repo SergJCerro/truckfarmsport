@@ -80,7 +80,7 @@ a.expand:hover::before {
   height: 100%;
   padding: 5px;
 }
-.socialmedia{
+.socialmedia {
   margin-right: 20px;
 }
 /* @media only screen and (max-width: 768px) {
@@ -164,7 +164,7 @@ a.expand:hover::before {
 }
 .jugar {
   font-size: 2.5em;
-  background: linear-gradient(to right,#f81726,#42378f);
+  background: linear-gradient(to right, #f81726, #42378f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -177,7 +177,7 @@ a.expand:hover::before {
   padding: 25px;
 }
 
-.info{
+.info {
   color: var(--nav-color);
   padding: 25px;
   max-width: 500px;
@@ -188,7 +188,7 @@ a.expand:hover::before {
   top: 72%;
   left: 20%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .btn {
@@ -207,17 +207,16 @@ a.expand:hover::before {
 }
 
 .btn:after {
-
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   background: #3bade3;
-  background: linear-gradient( #e94d82, #84167c);
+  background: linear-gradient(#e94d82, #84167c);
   height: 50px;
   width: 372px;
   z-index: -1;
   -webkit-transform: translateX(-280px);
-          transform: translateX(-280px);
+  transform: translateX(-280px);
   -webkit-transition: -webkit-transform 400ms ease-in;
   transition: -webkit-transform 400ms ease-in;
   transition: transform 400ms ease-in;
@@ -226,30 +225,110 @@ a.expand:hover::before {
 
 .btn:hover:after {
   -webkit-transform: translateX(-200px);
-          transform: translateX(-200px);
+  transform: translateX(-200px);
 }
 
 .btn span {
   position: relative;
   top: 16px;
 }
-.know_SC #truck_top{
+.know_SC #truck_top {
   position: absolute;
   top: 25%;
   left: 50%;
 }
-.know_SC #truck_top img{
+.know_SC #truck_top img {
   max-width: 600px;
   width: 100%;
   height: 100%;
 }
-.know_SC .content-right{
+.know_SC .content-right {
   position: absolute;
-  top: -160%;
+  top: -75%;
   left: 85%;
 }
-.know_SC .content-right svg{
-  max-width: 600px;
+.know_SC .content-right svg {
+  max-width: 200px;
 }
 /* Main */
+main {
+  text-align: center;
+}
+main .content-center h2 {
+  font-size: 3em;
+  background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  padding: 25px;
+  letter-spacing: 8px;
+}
+/* Clouds */
+main .cloudz .clouds {
+  position: absolute;
+}
+main .cloudz .eins {
+  max-width: 170px;
+  left: 10%;
+  top: 130%;
+}
+main .cloudz .zwei {
+  max-width: 150px;
+  left: 80%;
+  top: 130%;
+}
+main .cloudz .drei {
+  max-width: 90px;
+  left: 83%;
+  top: 160%;
+}
+main .cloudz .vier {
+  max-width: 100px;
+  left: 10%;
+  top: 180%;
+}
+/* Road */
 
+main .content-center .road img {
+  position: absolute;
+  width: 1355px;
+  height: 1100px;
+  top: 160%;
+  left: -1%;
+}
+/* Number Signs */
+main .content-center .road .number_sign .six {
+  position: absolute;
+  top: 165%;
+  left:71%;
+}
+main .content-center .road .number_sign .six img {
+  max-width: 90px;
+  height: 149px;
+}
+main .content-center .road .number_sign .five {
+  position: absolute;
+  top: 188%;
+  left:44%;
+}
+main .content-center .road .number_sign .five img {
+  max-width: 100px;
+  height: 160px;
+}main .content-center .road .number_sign .four {
+  position: absolute;
+  top: 205%;
+  left:58%;
+}
+main .content-center .road .number_sign .four img {
+  max-width: 100px;
+  height: 160px;
+}
+main .content-center .road .number_sign .three {
+  position: absolute;
+  top: 220%;
+  left:35%;
+}
+main .content-center .road .number_sign .three img {
+  max-width: 130px;
+  height: 190px;
+}
