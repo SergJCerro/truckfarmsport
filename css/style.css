@@ -325,10 +325,29 @@ main .content-center .road .number_sign .four img {
 }
 main .content-center .road .number_sign .three {
   position: absolute;
-  top: 220%;
+  top: 208%;
   left:35%;
 }
 main .content-center .road .number_sign .three img {
-  max-width: 130px;
-  height: 190px;
+  max-width: 120px;
+  height: 200px;
 }
+main .content-center .road .number_sign .two {
+  position: absolute;
+  top: 245%;
+  left:80%;
+}
+main .content-center .road .number_sign .two img {
+  max-width: 160px;
+  height: 260px;
+}
+main .content-center .road .number_sign .one {
+  position: absolute;
+  top: 250%;
+  left:8.5%;
+}
+main .content-center .road .number_sign .one img {
+  max-width: 200px;
+  height: 340px;
+}
+/* Info Tags For Numbers */
