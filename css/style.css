@@ -82,6 +82,7 @@ a.expand:hover::before {
 }
 .socialmedia {
   margin-right: 20px;
+  z-index: 1200;
 }
 /* @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -417,6 +418,16 @@ main .content-center .many .sil {
   top: 335.9%;
   z-index: -2;
 }
+main .content-center .many .sil2 {
+  position: absolute;
+  background-image: url(/assets/Recurso27_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+  top: 500%;
+  z-index: -3;
+}
 /* PreSale */
 main .content-center .presale {
   position: absolute !important;
@@ -462,10 +473,10 @@ main .content-center .presale {
 .cobres .heading{
   position: absolute;
   top:454%;
-  left: 30%;
+  left: 25%;
 }
-.cobres .heading h1{
-  font-size: 3em;
+.cobres .heading #h1{
+  font-size: 2.5em;
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -473,9 +484,9 @@ main .content-center .presale {
   padding: 25px;
   letter-spacing: 8px;
 }
-.cobres .heading  p{
+.cobres .heading  .o{
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 500;
 }
 .section { 
