@@ -472,11 +472,11 @@ main .content-center .presale {
 /* COfres */
 .cobres .heading{
   position: absolute;
-  top:454%;
+  top:460%;
   left: 25%;
 }
 .cobres .heading #h1{
-  font-size: 2.5em;
+  font-size: 2.2em;
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
