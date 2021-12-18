@@ -500,3 +500,24 @@ main .content-center .presale {
   max-width: 350px;
   height: 225px;
 }
+.section .column{
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.section .column h3{
+  font-size: 1.5em;
+  background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  /* padding: 25px; */
+}
+.section .column p{
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 600;
+}
+.section .column a img{
+  max-width: 200px;
+}
