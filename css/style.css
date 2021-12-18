@@ -528,7 +528,38 @@ main .content-center .presale {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 150vh;
-  top: 580%;
+  height:500vh;
+  top: 575%;
   z-index: -3;
+}
+.content-center .many_2 .truck_Content h2{
+  position: absolute;
+  left: 10%;
+  top:5%;
+  font-size: 4em;
+  padding: 10px;
+  text-align: left;
+}
+.content-center .many_2 .truck_Content p{
+  position: absolute;
+  left: 10%;
+  top:11%;
+  padding: 10px;
+  text-align: left;
+  color: var(--nav-color);
+  font-size: 1.3em;
+}
+.content-center .many_2 .truck_Content  .meep{
+  position: absolute;
+  max-width: 700px;
+  top: 12%;
+  left: 22%;
+  z-index: -4;
+}
+.content-center .many_2 .truck_Content  .meeps{
+  position: absolute;
+  max-width: 400px;
+  top: 17%;
+  left: 68%;
+  z-index: -4;
 }
