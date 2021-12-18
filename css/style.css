@@ -521,3 +521,14 @@ main .content-center .presale {
 .section .column a img{
   max-width: 200px;
 }
+/* Tipo De Camiones */
+.content-center .many_2{
+  position: absolute;
+  background-image: url(/assets/Recurso34_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 150vh;
+  top: 580%;
+  z-index: -3;
+}
