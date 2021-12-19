@@ -458,24 +458,23 @@ main .content-center .presale {
 /* Timer */
 
 /* Coin */
-.content-center .coin{
+.content-center .coin {
   position: absolute;
-  top:415%;
+  top: 415%;
   left: 45%;
-  Z-index:1100;
+  z-index: 1100;
 }
-.content-center .coin img{
+.content-center .coin img {
   max-width: 200px;
   height: 226px;
-
 }
 /* COfres */
-.cobres .heading{
+.cobres .heading {
   position: absolute;
-  top:460%;
+  top: 460%;
   left: 25%;
 }
-.cobres .heading #h1{
+.cobres .heading #h1 {
   font-size: 2.2em;
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
   -webkit-background-clip: text;
@@ -484,28 +483,28 @@ main .content-center .presale {
   padding: 25px;
   letter-spacing: 8px;
 }
-.cobres .heading  .o{
+.cobres .heading .o {
   padding: 10px;
   font-size: 1em;
   font-weight: 500;
 }
-.section { 
+.section {
   position: absolute;
   display: flex;
   text-align: center;
   top: 490%;
   left: 13%;
 }
-.section .imag img{
+.section .imag img {
   max-width: 350px;
   height: 225px;
 }
-.section .column{
+.section .column {
   max-width: 500px;
   margin: 0 auto;
   gap: 10px;
 }
-.section .column h3{
+.section .column h3 {
   font-size: 1.5em;
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
   -webkit-background-clip: text;
@@ -513,53 +512,91 @@ main .content-center .presale {
   text-transform: uppercase;
   /* padding: 25px; */
 }
-.section .column p{
+.section .column p {
   font-size: 18px;
   padding: 10px;
   font-weight: 600;
 }
-.section .column a img{
+.section .column a img {
   max-width: 200px;
 }
 /* Tipo De Camiones */
-.content-center .many_2{
+.content-center .many_2 {
   position: absolute;
   background-image: url(/assets/Recurso34_1.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height:500vh;
+  height: 2000px;
   top: 575%;
   z-index: -3;
 }
-.content-center .many_2 .truck_Content h2{
+.content-center .many_2 .truck_Content h2 {
   position: absolute;
   left: 10%;
-  top:5%;
-  font-size: 4em;
+  top: 5%;
+  font-size: 3.6em;
   padding: 10px;
   text-align: left;
 }
-.content-center .many_2 .truck_Content p{
+.content-center .many_2 .truck_Content p {
   position: absolute;
   left: 10%;
-  top:11%;
+  top: 15%;
   padding: 10px;
   text-align: left;
   color: var(--nav-color);
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
-.content-center .many_2 .truck_Content  .meep{
+.content-center .many_2 .truck_Content .meep {
   position: absolute;
-  max-width: 700px;
-  top: 12%;
-  left: 22%;
+  max-width: 600px;
+  top: 19%;
+  left: 18%;
   z-index: -4;
 }
-.content-center .many_2 .truck_Content  .meeps{
+.content-center .many_2 .truck_Content .meeps {
   position: absolute;
-  max-width: 400px;
-  top: 17%;
-  left: 68%;
+  max-width: 330px;
+  top: 26.2%;
+  left: 58.5%;
   z-index: -4;
+}
+.sections {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  top: 45%;
+  left: 2%;
+}
+.sections .imags img {
+  max-width: 350px;
+  height: 225px;
+}
+.section .columnso {
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.sections .columnso h3 {
+  background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.sections .columnso p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.sections .bottom{
+  position: absolute ;
+  top: 110%;
+  left: 20%;
+}
+.sections .left{
+  position: absolute ;
+  top: 110%;
+  left: 50%;
 }
