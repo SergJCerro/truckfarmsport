@@ -604,6 +604,7 @@ main .content-center .presale {
 .content-center .tff_road .map_tff{
   position: absolute;
   /* background-image: url(/assets/Recurso47.png); */
+  background-color: #e94d82;
   width: 100%;
   height: 100vh;
   top: 880%;
