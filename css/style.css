@@ -590,23 +590,158 @@ main .content-center .presale {
   font-weight: 600;
   font-size: 1rem;
 }
-.sections .bottom{
-  position: absolute ;
+.sections .bottom {
+  position: absolute;
   top: 110%;
   left: 20%;
 }
-.sections .left{
-  position: absolute ;
+.sections .left {
+  position: absolute;
   top: 110%;
   left: 50%;
 }
 /* TFF RoadMap */
-.content-center .tff_road .map_tff{
+.content-center .tff_road .map_tff {
   position: absolute;
-  /* background-image: url(/assets/Recurso47.png); */
-  background-color: #e94d82;
+  background-image: url(/assets/Recurso47.png);
+  /* background-color: #e94d82; */
   width: 100%;
-  height: 100vh;
-  top: 880%;
+  height: 140vh;
+  top: 875%;
   z-index: -100;
+}
+.content-center .tff_road h2 {
+  background: linear-gradient(to right, #caedfb, #1f8ab4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 890%;
+  left: 30%;
+}
+.tff_road .zection {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  top: 920%;
+  left: -1.5%;
+}
+.tff_road .zection .column {
+  /* max-width: 500px; */
+  margin: 0 auto;
+  gap: 5px;
+}
+
+.tff_road .zection .column figure .m-one {
+  max-width: 350px;
+  height: 300px;
+  position: relative;
+  left: 15%;
+}
+.tff_road .zection .column figure .m-two {
+  max-width: 425px;
+  height: 300px;
+}
+.tff_road .zection .column figure .m-three {
+  max-width: 350px;
+  height: 300px;
+  position: relative;
+  left: -15%;
+}
+.tff_road .zection .column .m-l{
+  position: relative;
+  left: -10%;
+}
+.tff_road .zection .column .m-c{
+  position: relative;
+  left: -25%;
+}
+.tff_road .zection .column .m-r{
+  position: relative;
+  left: -35%;
+}
+/* Check Marks */
+.tff_road .zection .column .checks-l .one img{
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .one p {
+  position: absolute;
+  top: 14%;
+  left:10%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .two img{
+  position: absolute;
+  top: 26%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .two p {
+  position: absolute;
+  top: 21%;
+  left:10%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .three img{
+  position: absolute;
+  top: 33%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .three p {
+  position: absolute;
+  top: 28%;
+  left:10%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}.tff_road .zection .column .checks-l .four img{
+  position: absolute;
+  top: 39%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .four p {
+  position: absolute;
+  top: 35%;
+  left:10%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .five img{
+  position: absolute;
+  top: 46%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .five p {
+  position: absolute;
+  top: 41%;
+  left:10%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .six img{
+  position: absolute;
+  top: 53%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .six p {
+  position: absolute;
+  top: 48%;
+  left:10%;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
