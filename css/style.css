@@ -1035,7 +1035,7 @@ main .content-center .presale {
   left: 59%;
   width: 500px;
 }
-.content-center .quees .centro{
+.content-center .quees .centro {
   font-size: 1.2rem;
   font-weight: 600;
   color: #000;
@@ -1044,32 +1044,50 @@ main .content-center .presale {
   top: 1260%;
   left: 7.5%;
 }
-.content-center .quees .left .imagez img{
-position:absolute;
-top: 1290%;
-left: 10%;
-width: 400px;
-
+.content-center .quees .left .imagez img {
+  position: absolute;
+  top: 1290%;
+  left: 10%;
+  width: 400px;
 }
-.content-center .quees .middle .imagez img{
-  position:absolute;
+.content-center .quees .middle .imagez img {
+  position: absolute;
   top: 1290%;
   left: 45%;
   width: 300px;
-  }
-  .content-center .quees .right .imagez img{
-    position:absolute;
-    top: 1288%;
-    left: 74%;
-    width: 300px;
-    }
+}
+.content-center .quees .right .imagez img {
+  position: absolute;
+  top: 1288%;
+  left: 74%;
+  width: 300px;
+}
 
-    .content-center .quees .bottom{
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: #000;
-      text-align: center;
-      position: absolute;
-      top: 1350%;
-      left: 7.5%;
-    }
+.content-center .quees .bottom {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  top: 1350%;
+  left: 7.5%;
+}
+/* Elige */
+.content-center .choose .back{
+position: absolute;
+background-image: url(/assets/Recurso61.png);
+background-repeat: no-repeat;
+background-size: cover;
+top: 1388%;
+width: 100%;
+height: 900px;
+z-index: 1500;
+}
+.content-center .choose img{
+  position: absolute;
+  top: 1465%;
+  left:15%;
+  width: 900px;
+  height: 500px;
+  z-index: 1600;
+}
