@@ -635,113 +635,317 @@ main .content-center .presale {
 
 .tff_road .zection .column figure .m-one {
   max-width: 350px;
-  height: 300px;
+  height: 270px;
   position: relative;
   left: 15%;
 }
 .tff_road .zection .column figure .m-two {
   max-width: 425px;
-  height: 300px;
+  height: 270px;
 }
 .tff_road .zection .column figure .m-three {
   max-width: 350px;
-  height: 300px;
+  height: 270px;
   position: relative;
   left: -15%;
 }
-.tff_road .zection .column .m-l{
+.tff_road .zection .column .m-l {
   position: relative;
   left: -10%;
 }
-.tff_road .zection .column .m-c{
+.tff_road .zection .column .m-c {
   position: relative;
   left: -25%;
 }
-.tff_road .zection .column .m-r{
+.tff_road .zection .column .m-r {
   position: relative;
   left: -35%;
 }
 /* Check Marks */
-.tff_road .zection .column .checks-l .one img{
+.tff_road .zection .column .checks-l .one img {
   position: absolute;
-  top: 20%;
+  top: 22%;
   left: 8%;
   width: 20px;
 }
 .tff_road .zection .column .checks-l .one p {
   position: absolute;
-  top: 14%;
-  left:10%;
+  top: 16%;
+  left: 10%;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
-.tff_road .zection .column .checks-l .two img{
+.tff_road .zection .column .checks-l .two img {
   position: absolute;
-  top: 26%;
+  top: 28%;
   left: 8%;
   width: 20px;
 }
 .tff_road .zection .column .checks-l .two p {
   position: absolute;
-  top: 21%;
-  left:10%;
+  top: 23%;
+  left: 10%;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
-.tff_road .zection .column .checks-l .three img{
+.tff_road .zection .column .checks-l .three img {
   position: absolute;
-  top: 33%;
+  top: 35%;
   left: 8%;
   width: 20px;
 }
 .tff_road .zection .column .checks-l .three p {
   position: absolute;
-  top: 28%;
-  left:10%;
+  top: 30%;
+  left: 10%;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
-}.tff_road .zection .column .checks-l .four img{
+}
+.tff_road .zection .column .checks-l .four img {
   position: absolute;
-  top: 39%;
+  top: 41%;
   left: 8%;
   width: 20px;
 }
 .tff_road .zection .column .checks-l .four p {
   position: absolute;
-  top: 35%;
-  left:10%;
+  top: 37%;
+  left: 10%;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
-.tff_road .zection .column .checks-l .five img{
+.tff_road .zection .column .checks-l .five img {
   position: absolute;
-  top: 46%;
+  top: 48%;
   left: 8%;
   width: 20px;
 }
 .tff_road .zection .column .checks-l .five p {
   position: absolute;
-  top: 41%;
-  left:10%;
+  top: 43%;
+  left: 10%;
   color: #fff;
   font-size: 1.2rem;
   text-transform: uppercase;
 }
-.tff_road .zection .column .checks-l .six img{
+.tff_road .zection .column .checks-l .six img {
   position: absolute;
-  top: 53%;
+  top: 55%;
   left: 8%;
   width: 20px;
 }
 .tff_road .zection .column .checks-l .six p {
   position: absolute;
-  top: 48%;
-  left:10%;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .seven img {
+  position: absolute;
+  top: 61%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .seven p {
+  position: absolute;
+  top: 57%;
+  left: 10%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .eight img {
+  position: absolute;
+  top: 69%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .eight p {
+  position: absolute;
+  top: 64%;
+  left: 10%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .nine img {
+  position: absolute;
+  top: 76%;
+  left: 8%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .nine p {
+  position: absolute;
+  top: 72%;
+  left: 10%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .ten img {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .ten p {
+  position: absolute;
+  top: 15%;
+  left: 36.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .eleven img {
+  position: absolute;
+  top: 28%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .eleven p {
+  position: absolute;
+  top: 23%;
+  left: 36.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.tff_road .zection .column .checks-l .twelve img {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .twelve p {
+  position: absolute;
+  top: 30%;
+  left: 36.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .thirteen img {
+  position: absolute;
+  top: 42%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .thirteen p {
+  position: absolute;
+  top: 37%;
+  left: 36.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .fourteen img {
+  position: absolute;
+  top: 49%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .fourteen p {
+  position: absolute;
+  top: 43%;
+  left: 36.7%;
   color: #fff;
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .fifteen img {
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .fifteen p {
+  position: absolute;
+  top: 50%;
+  left: 36.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .sixteen img {
+  position: absolute;
+  top: 62%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .sixteen p {
+  position: absolute;
+  top: 57%;
+  left: 36.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .seventeen img {
+  position: absolute;
+  top: 69%;
+  left: 35%;
+  width: 20px;
+}
+.tff_road .zection .column .checks-l .seventeen p {
+  position: absolute;
+  top: 64%;
+  left: 36.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.tff_road .zection .column .checks-l .eighteen img {
+  position: absolute;
+  top: 20%;
+  left: 68%;
+  width: 20px;
+  z-index: 4;
+}
+.tff_road .zection .column .checks-l .eighteen p {
+  position: absolute;
+  top: 15%;
+  left: 69.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  z-index: 4;
+}
+.tff_road .zection .column .checks-l .nineteen img {
+  position: absolute;
+  top: 28%;
+  left: 68%;
+  width: 20px;
+  z-index: 4;
+}
+.tff_road .zection .column .checks-l .nineteen p {
+  position: absolute;
+  top: 24%;
+  left: 69.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  z-index: 4;
+}
+.tff_road .zection .column .checks-l .twenty img {
+  position: absolute;
+  top: 35%;
+  left: 68%;
+  width: 20px;
+  z-index: 4;
+}
+.tff_road .zection .column .checks-l .twenty p {
+  position: absolute;
+  top: 30%;
+  left: 69.7%;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  z-index: 4;
 }
