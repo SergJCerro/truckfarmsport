@@ -1000,15 +1000,17 @@ main .content-center .presale {
 .content-center .quees .backg {
   position: absolute;
   background-image: url(/assets/Recurso27_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   top: 1100%;
   width: 100%;
-  height: 600vh;
+  height: 300vh;
   z-index: -5;
   background-repeat: repeat;
 }
-.content-center .quees h2{
+.content-center .quees h2 {
   font-size: 3.5rem;
-  text-align:center;
+  text-align: center;
   position: absolute;
   top: 1140%;
   left: 5%;
@@ -1018,3 +1020,56 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 5;
 }
+.content-center .quees p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  text-align: left;
+  position: absolute;
+  top: 1175%;
+  left: 7.5%;
+}
+.content-center .quees img {
+  position: absolute;
+  top: 1170%;
+  left: 59%;
+  width: 500px;
+}
+.content-center .quees .centro{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  top: 1260%;
+  left: 7.5%;
+}
+.content-center .quees .left .imagez img{
+position:absolute;
+top: 1290%;
+left: 10%;
+width: 400px;
+
+}
+.content-center .quees .middle .imagez img{
+  position:absolute;
+  top: 1290%;
+  left: 45%;
+  width: 300px;
+  }
+  .content-center .quees .right .imagez img{
+    position:absolute;
+    top: 1288%;
+    left: 74%;
+    width: 300px;
+    }
+
+    .content-center .quees .bottom{
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #000;
+      text-align: center;
+      position: absolute;
+      top: 1350%;
+      left: 7.5%;
+    }
