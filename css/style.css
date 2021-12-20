@@ -949,3 +949,72 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 4;
 }
+/* Conviertete */
+.content-center .conviertete .curvesboi {
+  position: absolute;
+  top: 990%;
+  background-image: url(/assets/Recurso55.png);
+  width: 100%;
+  height: 1000px;
+}
+.content-center .conviertete .back {
+  position: absolute;
+  top: 995%;
+  left: 1%;
+  max-width: 600px;
+  height: 650px;
+}
+.content-center .conviertete .front {
+  position: absolute;
+  top: 1047%;
+  left: 21%;
+  max-width: 400px;
+}
+.content-center .conviertete h2 {
+  font-size: 3.5rem;
+  text-align: right;
+  position: absolute;
+  top: 1010%;
+  left: 45%;
+  background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  z-index: 5;
+}
+.content-center .conviertete p {
+  font-size: 1.3rem;
+  text-align: right;
+  position: absolute;
+  top: 1070%;
+  left: 58%;
+  z-index: 5;
+  color: #fff;
+}
+.content-center .conviertete a img {
+  position: absolute;
+  top: 1100%;
+  left: 80%;
+}
+/* Que ES */
+.content-center .quees .backg {
+  position: absolute;
+  background-image: url(/assets/Recurso27_1.png);
+  top: 1100%;
+  width: 100%;
+  height: 600vh;
+  z-index: -5;
+  background-repeat: repeat;
+}
+.content-center .quees h2{
+  font-size: 3.5rem;
+  text-align:center;
+  position: absolute;
+  top: 1140%;
+  left: 5%;
+  background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  z-index: 5;
+}
