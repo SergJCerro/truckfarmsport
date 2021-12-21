@@ -2,6 +2,7 @@
   --main-color: #bcecff;
   --nav-color: #fff;
 }
+
 html {
   background-color: #bcecff;
 }
@@ -13,15 +14,18 @@ li {
 a {
   text-decoration: none;
 }
+
 a.expand {
   position: relative;
   color: var(--nav-color);
   text-decoration: none;
   padding: 0 3px 6px 3px;
 }
+
 a.expand:hover {
   color: var(--nav-color);
 }
+
 a.expand::before {
   content: "";
   position: absolute;
@@ -38,6 +42,7 @@ a.expand::before {
   transform: scaleX(0);
   transition: transform 0.4s ease;
 }
+
 a.expand:hover::before {
   transform: scaleX(1);
 }
@@ -48,6 +53,7 @@ a.expand:hover::before {
   align-items: center;
   padding: 1rem 1.2rem;
 }
+
 .hamburger {
   display: none;
 }
@@ -73,16 +79,19 @@ a.expand:hover::before {
   width: 100%;
   height: 100%;
 }
+
 .socialmedia a .image {
   max-width: 30px;
   width: 100%;
   height: 100%;
   padding: 5px;
 }
+
 .socialmedia {
   margin-right: 20px;
   z-index: 1200;
 }
+
 /* HeaderBackground */
 .know_SC {
   background-image: url(../assets/Recurso8_1.png);
@@ -99,47 +108,56 @@ a.expand:hover::before {
     width: 120%;
     height: 80%;
   }
+
   .know_Td .three {
     top: 30%;
     left: 30%;
     display: none;
   }
+
   .know_Td .three img {
     width: 100px !important;
     height: 100px !important;
   }
 }
+
 @keyframes ContentFadeIn {
   0% {
     transform: translateY(-1rem);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes ImageFadeIn {
   0% {
     transform: translate(-0.5rem, -0.5rem) scale(1.05);
     opacity: 0;
     filter: blur(2px);
   }
+
   50% {
     opacity: 1;
     filter: blur(2px);
   }
+
   100% {
     transform: translateY(0) scale(1);
     opacity: 1;
     filter: blur(0);
   }
 }
+
 /* Content Information */
 .know_SC .content_info {
   padding-left: 3.2%;
   /* margin-top: 70px; */
 }
+
 .jugar {
   font-size: 2.5em;
   background: linear-gradient(to right, #f81726, #42378f);
@@ -149,6 +167,7 @@ a.expand:hover::before {
   padding: 25px;
   letter-spacing: 5px;
 }
+
 .email {
   font-size: 0.9em;
   color: var(--nav-color) !important;
@@ -161,6 +180,7 @@ a.expand:hover::before {
   max-width: 500px;
   font-size: 1.6em;
 }
+
 .button-container {
   position: absolute;
   top: 72%;
@@ -210,28 +230,34 @@ a.expand:hover::before {
   position: relative;
   top: 16px;
 }
+
 .know_SC #truck_top {
   position: absolute;
   top: 25%;
   left: 50%;
 }
+
 .know_SC #truck_top img {
   max-width: 600px;
   width: 100%;
   height: 100%;
 }
+
 .know_SC .content-right {
   position: absolute;
   top: -75%;
   left: 85%;
 }
+
 .know_SC .content-right svg {
   max-width: 200px;
 }
+
 /* Main */
 main {
   text-align: center;
 }
+
 main .content-center h2 {
   font-size: 3em;
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
@@ -241,30 +267,36 @@ main .content-center h2 {
   padding: 25px;
   letter-spacing: 8px;
 }
+
 /* Clouds */
 main .cloudz .clouds {
   position: absolute;
 }
+
 main .cloudz .eins {
   max-width: 170px;
   left: 10%;
   top: 130%;
 }
+
 main .cloudz .zwei {
   max-width: 150px;
   left: 80%;
   top: 130%;
 }
+
 main .cloudz .drei {
   max-width: 90px;
   left: 83%;
   top: 160%;
 }
+
 main .cloudz .vier {
   max-width: 100px;
   left: 10%;
   top: 180%;
 }
+
 /* Road */
 
 main .content-center .road img {
@@ -274,116 +306,141 @@ main .content-center .road img {
   top: 160%;
   left: -1%;
 }
+
 /* Number Signs */
 main .content-center .road .number_sign .six {
   position: absolute;
   top: 165%;
   left: 71%;
 }
+
 main .content-center .road .number_sign .six img {
   max-width: 90px;
   height: 149px;
 }
+
 main .content-center .road .number_sign .five {
   position: absolute;
   top: 188%;
   left: 44%;
 }
+
 main .content-center .road .number_sign .five img {
   max-width: 100px;
   height: 160px;
 }
+
 main .content-center .road .number_sign .four {
   position: absolute;
   top: 205%;
   left: 58%;
 }
+
 main .content-center .road .number_sign .four img {
   max-width: 100px;
   height: 160px;
 }
+
 main .content-center .road .number_sign .three {
   position: absolute;
   top: 208%;
   left: 35%;
 }
+
 main .content-center .road .number_sign .three img {
   max-width: 120px;
   height: 200px;
 }
+
 main .content-center .road .number_sign .two {
   position: absolute;
   top: 245%;
   left: 80%;
 }
+
 main .content-center .road .number_sign .two img {
   max-width: 160px;
   height: 260px;
 }
+
 main .content-center .road .number_sign .one {
   position: absolute;
   top: 250%;
   left: 8.5%;
 }
+
 main .content-center .road .number_sign .one img {
   max-width: 200px;
   height: 340px;
 }
+
 /* Info Tags For Numbers */
 main .content-center .road .number_info .seis {
   position: absolute;
   top: 150%;
   left: 48%;
 }
+
 main .content-center .road .number_info .seis img {
   max-width: 300px;
   height: 116px;
 }
+
 main .content-center .road .number_info .cinco {
   position: absolute;
   top: 175%;
   left: 18%;
 }
+
 main .content-center .road .number_info .cinco img {
   max-width: 300px;
   height: 116px;
 }
+
 main .content-center .road .number_info .cuatro {
   position: absolute;
   top: 210%;
   left: 68%;
 }
+
 main .content-center .road .number_info .cuatro img {
   max-width: 300px;
   height: 116px;
 }
+
 main .content-center .road .number_info .tres {
   position: absolute;
   top: 220%;
   left: 10%;
 }
+
 main .content-center .road .number_info .tres img {
   max-width: 300px;
   height: 130px;
 }
+
 main .content-center .road .number_info .dos {
   position: absolute;
   top: 265%;
   left: 545;
 }
+
 main .content-center .road .number_info .dos img {
   max-width: 400px;
   height: 140px;
 }
+
 main .content-center .road .number_info .uno {
   position: absolute;
   top: 285%;
   left: 20%;
 }
+
 main .content-center .road .number_info .uno img {
   max-width: 320px;
   height: 120px;
 }
+
 /* Silver Background */
 main .content-center .many .sil {
   position: absolute;
@@ -395,6 +452,7 @@ main .content-center .many .sil {
   top: 335.9%;
   z-index: -2;
 }
+
 main .content-center .many .sil2 {
   position: absolute;
   background-image: url(/assets/Recurso27_2.png);
@@ -405,6 +463,7 @@ main .content-center .many .sil2 {
   top: 500%;
   z-index: -3;
 }
+
 /* PreSale */
 main .content-center .presale {
   position: absolute !important;
@@ -416,15 +475,18 @@ main .content-center .presale {
   top: 335.9%;
   z-index: 999;
 }
+
 .presale .p {
   color: var(--nav-color);
   padding: 10px;
 }
+
 .presale h2 {
   position: absolute;
   top: -1%;
   left: 25%;
 }
+
 .presale .j {
   position: absolute;
   color: var(--nav-color);
@@ -432,6 +494,7 @@ main .content-center .presale {
   top: 20%;
   left: 28%;
 }
+
 /* Timer */
 
 /* Coin */
@@ -441,16 +504,19 @@ main .content-center .presale {
   left: 45%;
   z-index: 1100;
 }
+
 .content-center .coin img {
   max-width: 200px;
   height: 226px;
 }
+
 /* COfres */
 .cobres .heading {
   position: absolute;
   top: 460%;
   left: 25%;
 }
+
 .cobres .heading #h1 {
   font-size: 2.2em;
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
@@ -460,11 +526,13 @@ main .content-center .presale {
   padding: 25px;
   letter-spacing: 8px;
 }
+
 .cobres .heading .o {
   padding: 10px;
   font-size: 1em;
   font-weight: 500;
 }
+
 .section {
   position: absolute;
   display: flex;
@@ -472,15 +540,18 @@ main .content-center .presale {
   top: 490%;
   left: 13%;
 }
+
 .section .imag img {
   max-width: 350px;
   height: 225px;
 }
+
 .section .column {
   max-width: 500px;
   margin: 0 auto;
   gap: 10px;
 }
+
 .section .column h3 {
   font-size: 1.5em;
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
@@ -489,14 +560,17 @@ main .content-center .presale {
   text-transform: uppercase;
   /* padding: 25px; */
 }
+
 .section .column p {
   font-size: 18px;
   padding: 10px;
   font-weight: 600;
 }
+
 .section .column a img {
   max-width: 200px;
 }
+
 /* Tipo De Camiones */
 .content-center .many_2 {
   position: absolute;
@@ -508,6 +582,7 @@ main .content-center .presale {
   top: 575%;
   z-index: -3;
 }
+
 .content-center .many_2 .truck_Content h2 {
   position: absolute;
   left: 10%;
@@ -516,6 +591,7 @@ main .content-center .presale {
   padding: 10px;
   text-align: left;
 }
+
 .content-center .many_2 .truck_Content p {
   position: absolute;
   left: 10%;
@@ -525,6 +601,7 @@ main .content-center .presale {
   color: var(--nav-color);
   font-size: 1.2em;
 }
+
 .content-center .many_2 .truck_Content .meep {
   position: absolute;
   max-width: 600px;
@@ -532,6 +609,7 @@ main .content-center .presale {
   left: 18%;
   z-index: -4;
 }
+
 .content-center .many_2 .truck_Content .meeps {
   position: absolute;
   max-width: 330px;
@@ -539,6 +617,7 @@ main .content-center .presale {
   left: 58.5%;
   z-index: -4;
 }
+
 .sections {
   position: absolute;
   display: flex;
@@ -546,15 +625,18 @@ main .content-center .presale {
   top: 45%;
   left: 2%;
 }
+
 .sections .imags img {
   max-width: 350px;
   height: 225px;
 }
+
 .section .columnso {
   max-width: 500px;
   margin: 0 auto;
   gap: 10px;
 }
+
 .sections .columnso h3 {
   background: linear-gradient(to right, #f56ea9, #d34181, #84167c);
   -webkit-background-clip: text;
@@ -562,21 +644,25 @@ main .content-center .presale {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
+
 .sections .columnso p {
   color: #fff;
   font-weight: 600;
   font-size: 1rem;
 }
+
 .sections .bottom {
   position: absolute;
   top: 110%;
   left: 20%;
 }
+
 .sections .left {
   position: absolute;
   top: 110%;
   left: 50%;
 }
+
 /* TFF RoadMap */
 .content-center .tff_road .map_tff {
   position: absolute;
@@ -587,6 +673,7 @@ main .content-center .presale {
   top: 875%;
   z-index: -100;
 }
+
 .content-center .tff_road h2 {
   background: linear-gradient(to right, #caedfb, #1f8ab4);
   -webkit-background-clip: text;
@@ -597,6 +684,7 @@ main .content-center .presale {
   top: 890%;
   left: 30%;
 }
+
 .tff_road .zection {
   position: absolute;
   display: flex;
@@ -604,6 +692,7 @@ main .content-center .presale {
   top: 920%;
   left: -1.5%;
 }
+
 .tff_road .zection .column {
   /* max-width: 500px; */
   margin: 0 auto;
@@ -616,28 +705,34 @@ main .content-center .presale {
   position: relative;
   left: 15%;
 }
+
 .tff_road .zection .column figure .m-two {
   max-width: 425px;
   height: 270px;
 }
+
 .tff_road .zection .column figure .m-three {
   max-width: 350px;
   height: 270px;
   position: relative;
   left: -15%;
 }
+
 .tff_road .zection .column .m-l {
   position: relative;
   left: -10%;
 }
+
 .tff_road .zection .column .m-c {
   position: relative;
   left: -25%;
 }
+
 .tff_road .zection .column .m-r {
   position: relative;
   left: -35%;
 }
+
 /* Check Marks */
 .tff_road .zection .column .checks-l .one img {
   position: absolute;
@@ -645,6 +740,7 @@ main .content-center .presale {
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .one p {
   position: absolute;
   top: 16%;
@@ -653,12 +749,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .two img {
   position: absolute;
   top: 28%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .two p {
   position: absolute;
   top: 23%;
@@ -667,12 +765,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .three img {
   position: absolute;
   top: 35%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .three p {
   position: absolute;
   top: 30%;
@@ -681,12 +781,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .four img {
   position: absolute;
   top: 41%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .four p {
   position: absolute;
   top: 37%;
@@ -695,12 +797,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .five img {
   position: absolute;
   top: 48%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .five p {
   position: absolute;
   top: 43%;
@@ -709,12 +813,14 @@ main .content-center .presale {
   font-size: 1.2rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .six img {
   position: absolute;
   top: 55%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .six p {
   position: absolute;
   top: 50%;
@@ -723,12 +829,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .seven img {
   position: absolute;
   top: 61%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .seven p {
   position: absolute;
   top: 57%;
@@ -737,12 +845,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .eight img {
   position: absolute;
   top: 69%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .eight p {
   position: absolute;
   top: 64%;
@@ -751,12 +861,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .nine img {
   position: absolute;
   top: 76%;
   left: 8%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .nine p {
   position: absolute;
   top: 72%;
@@ -765,12 +877,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .ten img {
   position: absolute;
   top: 20%;
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .ten p {
   position: absolute;
   top: 15%;
@@ -779,12 +893,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .eleven img {
   position: absolute;
   top: 28%;
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .eleven p {
   position: absolute;
   top: 23%;
@@ -800,6 +916,7 @@ main .content-center .presale {
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .twelve p {
   position: absolute;
   top: 30%;
@@ -808,12 +925,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .thirteen img {
   position: absolute;
   top: 42%;
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .thirteen p {
   position: absolute;
   top: 37%;
@@ -822,12 +941,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .fourteen img {
   position: absolute;
   top: 49%;
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .fourteen p {
   position: absolute;
   top: 43%;
@@ -836,12 +957,14 @@ main .content-center .presale {
   font-size: 1.2rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .fifteen img {
   position: absolute;
   top: 55%;
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .fifteen p {
   position: absolute;
   top: 50%;
@@ -850,12 +973,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .sixteen img {
   position: absolute;
   top: 62%;
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .sixteen p {
   position: absolute;
   top: 57%;
@@ -864,12 +989,14 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .seventeen img {
   position: absolute;
   top: 69%;
   left: 35%;
   width: 20px;
 }
+
 .tff_road .zection .column .checks-l .seventeen p {
   position: absolute;
   top: 64%;
@@ -878,6 +1005,7 @@ main .content-center .presale {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
 .tff_road .zection .column .checks-l .eighteen img {
   position: absolute;
   top: 20%;
@@ -885,6 +1013,7 @@ main .content-center .presale {
   width: 20px;
   z-index: 4;
 }
+
 .tff_road .zection .column .checks-l .eighteen p {
   position: absolute;
   top: 15%;
@@ -894,6 +1023,7 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 4;
 }
+
 .tff_road .zection .column .checks-l .nineteen img {
   position: absolute;
   top: 28%;
@@ -901,6 +1031,7 @@ main .content-center .presale {
   width: 20px;
   z-index: 4;
 }
+
 .tff_road .zection .column .checks-l .nineteen p {
   position: absolute;
   top: 24%;
@@ -910,6 +1041,7 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 4;
 }
+
 .tff_road .zection .column .checks-l .twenty img {
   position: absolute;
   top: 35%;
@@ -917,6 +1049,7 @@ main .content-center .presale {
   width: 20px;
   z-index: 4;
 }
+
 .tff_road .zection .column .checks-l .twenty p {
   position: absolute;
   top: 30%;
@@ -926,6 +1059,7 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 4;
 }
+
 /* Conviertete */
 .content-center .conviertete .curvesboi {
   position: absolute;
@@ -934,6 +1068,7 @@ main .content-center .presale {
   width: 100%;
   height: 1000px;
 }
+
 .content-center .conviertete .back {
   position: absolute;
   top: 995%;
@@ -941,12 +1076,14 @@ main .content-center .presale {
   max-width: 600px;
   height: 650px;
 }
+
 .content-center .conviertete .front {
   position: absolute;
   top: 1047%;
   left: 21%;
   max-width: 400px;
 }
+
 .content-center .conviertete h2 {
   font-size: 3.5rem;
   text-align: right;
@@ -959,6 +1096,7 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 5;
 }
+
 .content-center .conviertete p {
   font-size: 1.3rem;
   text-align: right;
@@ -968,11 +1106,13 @@ main .content-center .presale {
   z-index: 5;
   color: #fff;
 }
+
 .content-center .conviertete a img {
   position: absolute;
   top: 1100%;
   left: 80%;
 }
+
 /* Que ES */
 .content-center .quees .backg {
   position: absolute;
@@ -985,6 +1125,7 @@ main .content-center .presale {
   z-index: -5;
   background-repeat: repeat;
 }
+
 .content-center .quees h2 {
   font-size: 3.5rem;
   text-align: center;
@@ -997,6 +1138,7 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 5;
 }
+
 .content-center .quees p {
   font-size: 1.2rem;
   font-weight: 600;
@@ -1006,12 +1148,14 @@ main .content-center .presale {
   top: 1175%;
   left: 7.5%;
 }
+
 .content-center .quees img {
   position: absolute;
   top: 1170%;
   left: 59%;
   width: 500px;
 }
+
 .content-center .quees .centro {
   font-size: 1.2rem;
   font-weight: 600;
@@ -1021,18 +1165,21 @@ main .content-center .presale {
   top: 1260%;
   left: 7.5%;
 }
+
 .content-center .quees .left .imagez img {
   position: absolute;
   top: 1290%;
   left: 10%;
   width: 400px;
 }
+
 .content-center .quees .middle .imagez img {
   position: absolute;
   top: 1290%;
   left: 45%;
   width: 300px;
 }
+
 .content-center .quees .right .imagez img {
   position: absolute;
   top: 1288%;
@@ -1049,6 +1196,7 @@ main .content-center .presale {
   top: 1350%;
   left: 7.5%;
 }
+
 /* Elige */
 .content-center .choose .back {
   position: absolute;
@@ -1060,6 +1208,7 @@ main .content-center .presale {
   height: 900px;
   z-index: 1500;
 }
+
 .content-center .choose .bottom {
   position: absolute;
   background-image: url(/assets/Recurso27_1.png);
@@ -1070,6 +1219,7 @@ main .content-center .presale {
   height: 1847px;
   z-index: -4;
 }
+
 .content-center .choose h1 {
   position: absolute;
   top: 1400%;
@@ -1080,6 +1230,7 @@ main .content-center .presale {
   text-transform: uppercase;
   z-index: 1501;
 }
+
 .content-center .choose img {
   position: absolute;
   top: 1460%;
@@ -1088,6 +1239,7 @@ main .content-center .presale {
   height: 400px;
   z-index: 1600;
 }
+
 .content-center .choose .terrenos h2 {
   font-size: 3.5rem;
   text-align: center;
@@ -1099,6 +1251,7 @@ main .content-center .presale {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
+
 .content-center .choose .terrenos .t_com h3 {
   font-size: 2.2rem;
   text-align: center;
@@ -1110,6 +1263,7 @@ main .content-center .presale {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
+
 .content-center .choose .terrenos .t_com p {
   font-size: 1rem;
   text-align: left;
@@ -1118,6 +1272,7 @@ main .content-center .presale {
   top: 1563%;
   left: 20%;
 }
+
 .content-center .choose .terrenos .t_com img {
   position: absolute;
   top: 1556%;
@@ -1125,6 +1280,7 @@ main .content-center .presale {
   width: 20px;
   height: auto;
 }
+
 .content-center .choose .terrenos .t_com figure img {
   position: absolute;
   top: 1555%;
@@ -1132,6 +1288,7 @@ main .content-center .presale {
   width: 688px;
   height: 300px;
 }
+
 /* 2 */
 .content-center .choose .terrenos .t_com-2 h3 {
   font-size: 2.2rem;
@@ -1144,6 +1301,7 @@ main .content-center .presale {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
+
 .content-center .choose .terrenos .t_com-2 p {
   font-size: 1rem;
   text-align: left;
@@ -1152,6 +1310,7 @@ main .content-center .presale {
   top: 1614%;
   left: 55%;
 }
+
 .content-center .choose .terrenos .t_com-2 img {
   position: absolute;
   top: 1606.5%;
@@ -1159,6 +1318,7 @@ main .content-center .presale {
   width: 20px;
   height: auto;
 }
+
 .content-center .choose .terrenos .t_com-2 figure img {
   position: absolute;
   top: 1603%;
@@ -1166,6 +1326,7 @@ main .content-center .presale {
   width: 660px;
   height: 300px;
 }
+
 /* 3 */
 
 .content-center .choose .terrenos .t_com-3 h3 {
@@ -1179,6 +1340,7 @@ main .content-center .presale {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
+
 .content-center .choose .terrenos .t_com-3 p {
   font-size: 1rem;
   text-align: left;
@@ -1187,6 +1349,7 @@ main .content-center .presale {
   top: 1663%;
   left: 18.5%;
 }
+
 .content-center .choose .terrenos .t_com-3 img {
   position: absolute;
   top: 1656%;
@@ -1194,6 +1357,7 @@ main .content-center .presale {
   width: 20px;
   height: auto;
 }
+
 .content-center .choose .terrenos .t_com-3 figure img {
   position: absolute;
   top: 1651%;
@@ -1201,6 +1365,7 @@ main .content-center .presale {
   width: 688px;
   height: 300px;
 }
+
 /* 4 */
 
 .content-center .choose .terrenos .t_com-4 h3 {
@@ -1214,6 +1379,7 @@ main .content-center .presale {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
+
 .content-center .choose .terrenos .t_com-4 p {
   font-size: 1rem;
   text-align: left;
@@ -1222,6 +1388,7 @@ main .content-center .presale {
   top: 1714%;
   left: 55%;
 }
+
 .content-center .choose .terrenos .t_com-4 img {
   position: absolute;
   top: 1706.5%;
@@ -1229,6 +1396,7 @@ main .content-center .presale {
   width: 20px;
   height: auto;
 }
+
 .content-center .choose .terrenos .t_com-4 figure img {
   position: absolute;
   top: 1699%;
@@ -1236,6 +1404,7 @@ main .content-center .presale {
   width: 660px;
   height: 300px;
 }
+
 /* 5 */
 .content-center .choose .terrenos .t_com-5 h3 {
   font-size: 2.2rem;
@@ -1248,6 +1417,7 @@ main .content-center .presale {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
+
 .content-center .choose .terrenos .t_com-5 p {
   font-size: 1rem;
   text-align: left;
@@ -1256,6 +1426,7 @@ main .content-center .presale {
   top: 1763%;
   left: 18.5%;
 }
+
 .content-center .choose .terrenos .t_com-5 img {
   position: absolute;
   top: 1756%;
@@ -1263,6 +1434,7 @@ main .content-center .presale {
   width: 20px;
   height: auto;
 }
+
 .content-center .choose .terrenos .t_com-5 figure img {
   position: absolute;
   top: 1747%;
@@ -1270,6 +1442,7 @@ main .content-center .presale {
   width: 688px;
   height: 300px;
 }
+
 /* Arma */
 .content-center .arma .back {
   position: absolute;
@@ -1281,6 +1454,7 @@ main .content-center .presale {
   background-size: cover;
   z-index: 1;
 }
+
 .content-center .arma .curves {
   position: absolute;
   top: 1795%;
@@ -1290,6 +1464,7 @@ main .content-center .presale {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .content-center .arma h2 {
   font-size: 4rem;
   text-align: center;
@@ -1302,6 +1477,7 @@ main .content-center .presale {
   text-transform: uppercase;
   letter-spacing: normal;
 }
+
 .content-center .arma p {
   font-size: 1.2rem;
   color: #fff;
@@ -1318,6 +1494,7 @@ main .content-center .presale {
   width: 200px;
   z-index: 1502;
 }
+
 .parts-1 .zection .one p {
   position: absolute;
   top: 1885%;
@@ -1327,6 +1504,7 @@ main .content-center .presale {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .parts-1 .zection .two img {
   position: absolute;
   top: 1850%;
@@ -1334,6 +1512,7 @@ main .content-center .presale {
   width: 200px;
   z-index: 1502;
 }
+
 .parts-1 .zection .two p {
   position: absolute;
   top: 1885%;
@@ -1351,6 +1530,7 @@ main .content-center .presale {
   width: 200px;
   z-index: 1502;
 }
+
 .parts-1 .zection .three p {
   position: absolute;
   top: 1885%;
@@ -1368,6 +1548,7 @@ main .content-center .presale {
   width: 200px;
   z-index: 1502;
 }
+
 .parts-1 .zection .four p {
   position: absolute;
   top: 1938%;
@@ -1385,6 +1566,7 @@ main .content-center .presale {
   width: 300px;
   z-index: 1502;
 }
+
 .parts-1 .zection .five p {
   position: absolute;
   top: 1939%;
@@ -1394,6 +1576,7 @@ main .content-center .presale {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .parts-1 .zection .six img {
   position: absolute;
   top: 1905%;
@@ -1401,6 +1584,7 @@ main .content-center .presale {
   width: 250px;
   z-index: 1502;
 }
+
 .parts-1 .zection .six p {
   position: absolute;
   top: 1939%;
@@ -1410,6 +1594,7 @@ main .content-center .presale {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /* Part-2 */
 .parts-2 .back {
   position: absolute;
@@ -1421,6 +1606,7 @@ main .content-center .presale {
   background-size: cover;
   z-index: -1;
 }
+
 .parts-2 img {
   position: absolute;
   top: 1970%;
@@ -1429,6 +1615,7 @@ main .content-center .presale {
   height: 168px;
   z-index: 1550;
 }
+
 .parts-2 h1 {
   position: absolute;
   top: 2000%;
@@ -1437,6 +1624,7 @@ main .content-center .presale {
   text-transform: uppercase;
   font-size: 4rem;
 }
+
 .parts-2 p {
   color: #fff;
   font-size: 1.3rem;
@@ -1445,6 +1633,7 @@ main .content-center .presale {
   left: 20%;
   text-align: center;
 }
+
 /* parts3 */
 .parts-3 .back {
   position: absolute;
@@ -1456,6 +1645,7 @@ main .content-center .presale {
   background-size: cover;
   z-index: -3;
 }
+
 .parts-3 img {
   position: absolute;
   top: 2080%;
@@ -1463,6 +1653,7 @@ main .content-center .presale {
   width: 400px;
   height: 228px;
 }
+
 .parts-3 .socialmedia .twitter {
   position: absolute;
   top: 2125%;
@@ -1470,6 +1661,7 @@ main .content-center .presale {
   width: 50px;
   height: auto;
 }
+
 .parts-3 .socialmedia .instagram {
   position: absolute;
   top: 2125%;
@@ -1477,6 +1669,7 @@ main .content-center .presale {
   width: 50px;
   height: auto;
 }
+
 .parts-3 .socialmedia .telegram {
   position: absolute;
   top: 2125%;
@@ -1484,7 +1677,8 @@ main .content-center .presale {
   width: 50px;
   height: auto;
 }
-.parts-3 .ban img{
+
+.parts-3 .ban img {
   position: absolute;
   top: 2140%;
   left: 20%;
@@ -1492,14 +1686,16 @@ main .content-center .presale {
   height: 37px;
   background-size: cover;
 }
-.parts-3 .go img{
+
+.parts-3 .go img {
   position: absolute;
   top: 2147%;
   left: 90%;
   width: 50px;
   height: auto;
 }
-.parts-3 h3{
+
+.parts-3 h3 {
   color: #000;
   font-weight: 600;
   font-size: 1.5rem;
