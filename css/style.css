@@ -1492,6 +1492,13 @@ main .content-center .presale {
   height: 37px;
   background-size: cover;
 }
+.parts-3 .go img{
+  position: absolute;
+  top: 2147%;
+  left: 90%;
+  width: 50px;
+  height: auto;
+}
 .parts-3 h3{
   color: #000;
   font-weight: 600;
